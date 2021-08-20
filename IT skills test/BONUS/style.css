@@ -1,0 +1,33 @@
+h3 {
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 900;
+}
+
+.lighttheme {
+    background-color: white;
+    color: rgb(15, 15, 15);
+}
+
+.darktheme {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.outputerror {
+    background-color: rgb(245, 168, 168);
+    color: red;
+    border-color: red;
+}
+
+.outputcorrect {
+    background-color: rgb(170, 247, 170);
+    color: green;
+    border-color: green;
+}
+
+#name, #contactnumber {
+    border-radius: 0%;
+    border-style: none;
+    border-bottom: 1px solid black;
+}
